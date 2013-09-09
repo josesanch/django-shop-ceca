@@ -27,6 +27,6 @@ setup(
     description = 'A pluggable Django application for integrating ceca tpv Payments',
     packages=find_packages(),
     include_package_data=True,
-    long_description=open(os.path.join(os.path.dirname(__file__), 'README.md')).read(),
+    long_description=open(os.path.join(os.path.dirname(__file__), 'readme.md')).read(),
     classifiers=CLASSIFIERS
 )

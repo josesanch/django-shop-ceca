@@ -1,4 +1,4 @@
-include LICENSE.txt README.rst setup.py
+include LICENSE.txt README.rst setup.py readme.md
 recursive-include docs *
 recursive-include shop_ceca *.py
 recursive-include shop_ceca/templates *.html
