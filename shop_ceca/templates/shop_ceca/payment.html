@@ -1,0 +1,6 @@
+{% load i18n %}
+
+<form method='post' action='{{ service_url }}'>
+  {{ form.as_p }}
+  <input type='submit' class="btn btn-primary" value='{% trans 'Pay by tpv' %}'/>
+</form>
